@@ -1,0 +1,222 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+/*.home .carouselinner{
+   background-image: url(imgs/bg-image-29.jpg);
+    background-image: url(imgs/bg-image-28.jpg);
+    background-size: cover;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    */
+.nav-icons{
+    color:white;
+    margin: auto 10px;
+}
+.carousel-item{
+    height: 100vh;
+    background-size: cover;
+}
+.carousel-caption{
+    margin-bottom: 12rem;
+    
+}
+.carousel-caption h1{
+    font-size: 100px;
+    font-weight: 700;
+}
+.btn{
+    border-radius: 4px;
+    padding:0 40px;
+    /*color:black;*/
+    height: 50px;
+    border-width: 2px ;
+
+
+}
+
+.item{
+    position: relative;
+}
+.item-layer{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    transform: translateY(10px);
+    transition: transform 0.6s, opacity 0.6s;
+    background-color: rgba(0, 195, 218, 0.9);
+    opacity: 0;
+    overflow: hidden;
+}
+.item :hover.item-layer{
+   transform: translateY(0px);
+   opacity: 1;
+}
+.item-icon{
+     background-color: rgba(0, 195, 218, 0.9);
+      color: white;
+     padding: 20px;
+     
+}
+.item-text{
+    padding-top: 11rem;
+    color:#fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.who-cont{
+    text-align: center;
+     padding: 20px;
+    
+}
+.typing{
+    color:aqua
+}
+
+.who-cont .typing::after{
+    content: "|";
+  animation-name: typing;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes typing{
+
+    0%{content: "|";}
+    3%{content: "s|";}
+    6%{content: "so|";}
+    9%{content: "sof|";}
+    12%{content: "soft|";}
+    15%{content: "softw|";}
+    18%{content: "softwa|";}
+    22%{content: "softwar|";}
+    25%{content: "software|";}
+    28%{content: "softwar|";}
+    31%{content: "softwa|";}
+    33%{content: "softw|";}
+    36%{content: "soft|";}
+    39%{content: "sof|";}
+    41%{content: "so|";}
+    44%{content: "s|";}
+    47%{content: "a|";}
+    50%{content: "ap|";}
+    53%{content: "app|";}
+    56%{content: "ap|";}
+    59%{content: "a|";}
+    62%{content: "w|";}
+    65%{content: "we|";}
+    68%{content: "web|";}
+    71%{content: "webs|";}
+    74%{content: "websi|";}
+    77%{content: "websit|";}
+    80%{content: "websites|";}
+    83%{content: "website|";}
+    86%{content: "websit|";}
+    89%{content: "websi|";}
+    90%{content: "webs|";}
+    93%{content: "web|";}
+    96%{content:"we|";}
+    98%{content: "w|";}
+    100%{content: "|";}
+
+}
+.whatwe{
+    background-color: #1f1f1f;
+    color: white;
+    opacity: 0.7;
+   
+}
+.what-icon{
+    color: rgb(0, 112, 103);
+    padding: 10px;
+    margin: 10px;
+ text-align: center;
+}
+.what-text h4{
+    
+    font-size: 14px;
+    text-align: center;
+}
+.icons-list{
+    font-size: 18px;
+}
+.lists{
+    list-style-type: none;
+}
+.price{
+    position: relative;
+}
+.font-price h2
+{ 
+    padding: 10px;
+    margin-top: 2rem;
+font-size: 55px;
+font-weight: 500;
+
+}
+.font-price-g{
+    color: aqua;
+}
+.sign{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 400;
+    bottom:  28px;
+    left:  0px;
+}
+.btn-price{
+    padding: 0 16px;
+    font-size: 12px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    background-color: #00d5ee;
+}
+.btn-price:hover{
+    background-color: #00d5ee;
+    color: #fff;
+}
+.testiomonials-cont{
+    background-color: #fff;
+    padding: 75px 100px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.05);
+    max-width: 750px;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.testiomonials-cont img{
+
+    width: 100px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -125px;
+}
+.carousel-indicators{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-indent: 0;
+}
+
+.badge{
+    position: absolute;
+    
+    background-color: aqua;
+    right: 4px;
+    top: 50px;
+}
+.nav-link{
+    color: white;
+}
+.Caption{
+    height: 100%;
+    color: white;
+}
